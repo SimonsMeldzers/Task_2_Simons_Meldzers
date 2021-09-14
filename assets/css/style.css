@@ -1,0 +1,607 @@
+@media (max-width: 991px){
+    /* Used to remove logo of navbar for responsive design */
+    .navbar-brand{ 
+        display: none;
+    }
+
+    /* Responsive part for the collage section */
+    .subCollage1, .subCollage2, .subCollageCollumn, .subCollage5, .collage{
+        height: 220px !important;
+    }
+    .subCollage3, .subCollage4{
+        height: 109.2px !important;
+    }
+
+    /* Footer responsivnes improvements */
+    .footer{
+        height: 800px !important;
+       
+    }
+    .golden_logo{
+        display: none;
+    }
+    .footer_idea {
+       text-align: center;
+    }
+    .footer_credentials {
+        margin-top: 70px !important;
+        text-align: center !important;
+    }
+    .footer_contacts {
+        margin-top: -50px !important;
+        text-align: center !important;
+
+    }
+    .copyright, .privacy_policy{
+        display:none;
+    }
+
+    .languageSwitch_invis{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 773px){
+    /* Used to remove logo of navbar for responsive design */
+    .navbar-brand{ 
+        display: none;
+    }
+
+    /* Footer responsivnes improvements */
+    .footer{
+        height: 900px !important;    
+    }
+}
+
+/* Responsive part for the collage section */
+@media(max-width: 610px){
+    .subCollage1, .subCollage2, .subCollageCollumn, .subCollage5, .collage{
+        height: 180px !important;
+        
+    }
+    .subCollage3, .subCollage4{
+    
+        height: 88.45px !important;
+    }
+    .collage {
+        align-items: center;
+    }
+}
+/* Responsive part for the footer / sponsors bottom section */
+@media(max-width: 500px){
+    .subtract2{
+        margin-top: -50px !important;
+    }
+}
+
+/* Responsive part for the collage section */
+@media(max-width: 430px){
+    .subCollage1, .subCollage2, .subCollageCollumn, .subCollage5, .collage{
+        height: 140px !important;
+        
+    }
+    .subCollage3, .subCollage4{
+    
+        height: 68.79px !important;
+    }
+    .collage{
+        align-items: center;
+    }
+    .footer_idea a{
+        font-size: 14px !important;
+    }
+
+    .footer_credentials h1, .footer_contacts h1{
+        font-size: 18px !important;
+    }
+    .footer_credentials p, .footer_contacts p{
+        font-size: 14px !important;
+    }
+    
+    .subtract2{
+        margin-top: -65px !important;
+    }
+}
+
+
+
+/* Responsive part for the collage section */
+@media(max-width: 300px){
+    .subCollage1, .subCollage2, .subCollageCollumn, .subCollage5, .collage{
+        height: 100px !important;
+        
+    }
+    .subCollage3, .subCollage4{
+    
+        height: 49.136px !important;
+    }
+    .collage {
+        align-items: center;
+    }
+}
+
+::placeholder{
+    font-family: 'Monsterrat';
+    font-size: 18px;
+    color: #2F4858;
+    opacity: 0.95;
+}
+
+
+
+.navbar-brand{
+    
+    width: 159px;
+    height: 146px;
+    margin-left: 90px;
+    position:sticky;
+    
+}
+
+.nav-link{
+    font-family: 'Monsterrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;  
+    position:relative;
+    color:black !important;
+    z-index: 12;
+    background-color: #FFFFFF;
+
+    
+}
+
+.navbar{
+    position: sticky;
+    width: 100%;
+    height: 92.51px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+
+}
+
+.languageSwitch{
+    margin-right: 90px;
+    position: absolute;
+    right: -30px;
+    
+}
+
+.languageSwitch_invis{
+    margin-right: 90px;
+    position: sticky;
+    right: -30px;
+}
+
+.union1 {
+    width: 100%;
+    position: absolute;
+    margin-top: -1px;
+    z-index: 10;
+}
+
+.union2{
+    width: 100%;
+    position: absolute;
+    margin-top: -1px;
+}
+
+.union3{
+    width: 100%;
+    position: sticky;
+    margin-top: -35.5px;
+  
+}
+.parent{
+    position: relative;
+}
+
+.sparkleVideo {
+    width: 100%;
+    position:inherit;
+
+}
+
+.play_button{
+    top: 42%;
+    left: 47%;
+    width: 8%;
+   
+    vertical-align: middle;
+    position: absolute;
+}
+
+
+.sparkleTextDiv
+{
+  width:100%;
+  height:300px;  
+  display: table; 
+   
+}
+
+.sparkleText{
+    font-family: 'Monsterrat';
+    font-size: 18px;
+    color:#2F4858;
+    line-height: 22px;
+
+    margin-top: 130px;
+    margin-left: 20%;
+    margin-right: 20% ;
+    text-align:center; 
+    margin-bottom: 80px;
+}
+
+.collage{
+    width: 100%;
+    height: 364px;
+    background-color: antiquewhite;
+}
+
+
+.subCollage1{
+    background-image: url(/assets/img/Zanda_1.jpg);
+    background-size: cover;
+    width: 24.05%;
+    height: 364px;
+    float:left;
+}
+
+.subCollage2{
+    background-image: url(/assets/img/Sibilla_4.jpg);
+    background-size: cover;
+    width: 24.45%;
+    height: 364px;
+    float:left;    
+}
+
+.subCollageCollumn{
+    float:left;
+    width: 21.8%;
+}
+.subCollage3{
+    background-image: url(/assets/img/Brinuma_meita-15.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 182px;
+    float:left;
+}
+.subCollage4{
+    background-image: url(/assets/img/Alina_1_1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 182px;
+    float:left;
+}
+.subCollage5{
+    background-image: url(/assets/img/Anda_2_1.jpg);
+    background-size: cover;
+    width: 29.7%;
+    height: 364px;
+    float:left;
+}
+
+.yellow_buttons{
+    height: 50px;
+    width: 233px;
+    font-family: 'Monsterrat';
+    font-size: 18px;
+    color:white !important;
+    background-color: #ffa800 !important;
+    border: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.form h1{
+    color: #2F4858;
+    font-family: 'Monsterrat';
+    font-size: 30px !important;
+}
+
+.choise h2{
+    color:#2F4858;
+    font-family: 'Monsterrat';
+    font-size: 24px !important;
+}
+
+.sponsor_text h3{
+    color: #2F4858;
+    font-family: 'Oswald';
+    font-size: 24px !important;
+    font-weight: bold !important;
+    line-height: 36px;
+    letter-spacing: 2px;
+}
+
+.contacts{
+    margin-top: 100px;
+}
+
+.input_name_email{
+    background: rgba(196, 196, 196, 0.4);
+    margin-top: 40px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    height: 43px;
+}
+
+.input_phone{
+    background: rgba(196, 196, 196, 0.4);
+    margin-top: 20px;
+    width: 61%;
+    border-radius: 5px;
+    border: none;
+    height: 43px;
+}
+
+.input_comment{
+    background: rgba(196, 196, 196, 0.4);
+    margin-top: 20px;
+    width: 61%;
+    border-radius: 5px;
+    border: none;
+    height: 232px;
+}
+
+.info_obligatory{
+    margin-left: 19.5%;
+    color: #2F4858;
+    font-family: 'Monsterrat';
+    font-size: 14px ;
+    opacity: 0.9;
+}
+
+.checkbox_div{
+    margin-left: 19.5%;
+    width: 61%;
+}
+.checkbox_div label {
+    color: #2F4858;
+    font-family: 'Monsterrat';
+    font-size: 14px ;
+  }
+
+/* The label */
+.checkbox_label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox_label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+.checkmark_custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    margin-top: 2px;
+  }
+
+  /* On mouse-over, add a grey background color */
+.checkbox_label:hover input ~ .checkmark_custom {
+    background-color: #CCD1D1;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+.checkmark_custom:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when clicked */
+.checkbox_label input:checked ~ .checkmark_custom:after {
+    display: block;
+  }
+
+  /* Checkmark indicator*/
+.checkbox_label .checkmark_custom:after {
+    left: 5.25px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  .submit_button{
+    height: 62px;
+    width: 182px;
+    font-family: 'Monsterrat';
+    font-size: 24px;
+    color:white !important;
+    background-color: #ffa800 !important;
+    border: none;
+    margin-top: 35px;
+    margin-bottom: 140px;
+  }
+
+
+.subtract1{
+    width: 100%;
+    margin-bottom: -1px;
+  
+}
+
+.subtract2{
+    width: 100%;
+    position:static;
+    margin-top: -30px;
+}
+
+
+.sponsor_div{
+    width: 100%;
+    background-color: #FFCB66;
+
+}
+
+.sponsor_container{
+    padding-top: 20px;
+}
+
+.sponsor_logo{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer{
+    background-color: #2F4858;
+    height: 430px;
+    margin-top: -50px;
+}
+
+.golden_logo{
+    padding-top: 90px;
+}
+
+.footer_idea{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_idea a{
+    color:white;
+    font-family: 'Monsterrat';
+    font-weight: 500 !important;
+    font-size: 18px ;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+.footer_idea a:hover{
+    color:  #cccccc;
+
+}
+
+.footer_credentials{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_credentials h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.footer_credentials p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer_contacts{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.footer_contacts h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer_contacts p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.social_media_logos_div{
+    margin-top: 40px;
+}
+.social_media_logos{
+    width: 11%;
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+
+.copyright{
+    padding-top: 30px;
+}
+
+.privacy_policy{
+    text-align: right;
+    float:right;
+    padding-top: 30px;
+}
+.privacy_policy a{
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.copyright p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: -14px;
+    color: #FFFFFF;
+}
+
+.copyright a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+}
